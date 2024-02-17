@@ -1,0 +1,303 @@
+*{margin: 0 auto; padding: 0;font-family: arial;}
+
+.light .header{background: #F4FFD6;position: sticky; top: -42px; z-index: 99;}
+.light .logo{margin: 15px;text-align: center}
+.light .logo h1 {font-family: Meie Script;margin: 0; color: #C0334D;text-shadow: 1px 1px 2px black ;}
+.light .logo p {margin-bottom: 0;color: #A4978E}
+.light .mode {text-align: center;}
+.light .mode p{margin-bottom: 5px;color: #b5978e; font-weight: 300;font-size: 13px}
+/*
+.menuButton{width: 17px; height: 17px; background: #6A8A82; border-radius: 50%;box-shadow: 3px 3px 10px black}
+.menuButton:active{box-shadow:-1px -1px 0 black}
+*/
+
+.light .manus ul{display: flex;overflow: hidden;padding: 10px}
+.light .manus ul li{list-style: none;margin-top: 50px;cursor: pointer;overflow: hidden;display: inline-block;background: #807D63;border-radius: 50%;box-shadow: 3px 3px 5px black;transition: .3s}
+.light .manus ul li:active{box-shadow:none;}
+.light .manus ul li:hover{background: #C0334D}
+.light .manus ul li i{font-size: 22px;color: #F4FFD6;padding: 8px;}
+
+.light .banner{background: url(images/Banners.jpg) no-repeat center center/cover;overflow: hidden;height: 400px}
+.light .banner .bannerDialogue{text-align: center;padding: 70px }
+.light .banner .bannerDialogue h2{color:#D6D7D3; font-family: arial;font-weight: 500;font-size: 4vw ;margin: 0}
+.light .banner .bannerDialogue .first{animation-duration: .8s; animation-name: topToBottom; animation-timing-function: ease-out;}
+.light .banner .bannerDialogue .second{animation-duration: 1s; animation-name:leftRight; animation-timing-function: ease-out;transition-property: all}
+.light .banner .bannerDialogue p{color: black; background: #807D63;padding: 5px 15px;border-radius: 7px;display: inline-block; font-size: 15px;font-family: arial;font-weight: 700;margin: 0;animation-duration: 0.8s; animation-name: rightleft;animation-timing-function: ease-in;transition-property: all}
+.light .banner .bannerPicture img{width: 700px;height: auto;    margin-right: 70px;}
+
+.light .option{margin: 0 auto;text-align: center}
+.light .mainDetail{margin-top:-32px;padding: 0 0 !important; background-color:#F4FFD6; }
+.light .detail{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+
+.light .detail2{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+.light #detail2{display: none}
+.light .detail3{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+.light #detail3{display: none}
+.light .expert h3{color: #576864;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border:none}
+.light .expert2 h3{color: #576864;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border:none}
+.light .expert3 h3{color: #576864;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border:none}
+.light .detailExpert{width: 90%;overflow: hidden; border-radius: 13px}
+.light .detailExpert2{width: 90%;overflow: hidden; border-radius: 13px}
+.light .detailExpert3{width: 90%;overflow: hidden; border-radius: 13px}
+.light .cPro{width: 170px;background-color: #807d63;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 15px 1px black }
+.light .cPro2{width: 170px;background-color: #807d63;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 15px 1px black }
+.light .cPro3{width: 170px;background-color: #807d63;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 15px 1px black }
+.light .cPro:hover{box-shadow: 1px 1px 15px 1px black;background-color:#DD7474 }
+.light .cPro2:hover{box-shadow: 1px 1px 15px 1px black;background-color:#DD7474 }
+.light .cPro3:hover{box-shadow: 1px 1px 15px 1px black;background-color:#DD7474 }
+.light .cPro img{width: 170px;height: 170px; border-radius: 10px}
+.light .cPro2 img{width: 170px;height: 170px; border-radius: 10px}
+.light .cPro3 img{width: 170px;height: 170px; border-radius: 10px}
+.light .cPro h6{color: #393939;font-size: 12px;font-family: arial;font-weight: 700}
+.light .cPro2 h6{color: #393939;font-size: 12px;font-family: arial;}
+.light .cPro3 h6{color: #393939;font-size: 12px;font-family: arial;}
+.light .cPro2 p{font-size: 12px;font-family: arial;color: #393939}
+.light .cPro3 p{font-size: 12px;font-family: arial;color: #393939}
+
+.light .progress{background-color: transparent}
+.light .progress .bg-success{border-radius: 2px}
+
+.light .footer{background-color:#F4FFD6;}
+.light .footer div{margin: 70px 0px; border-top: 2px solid #bdbcbc;padding: 30px 0; border-bottom: 2px solid #bdbcbc;}
+.light .footer h3{color: #C0334D;margin-bottom: 30px}
+.light .footer p{color: #f4ffd6;}
+.light .footer a{color: #807d63;}
+.light .contact i{color: #A4978E;margin-bottom: 30px;}
+.light .fa-facebook-square::before{color: #807d63;}
+.light .fa-twitter-square::before{color: #807d63;}
+.light .social i{margin-bottom: 10px}
+.light .fa-instagram-square::before{color: #807d63;}
+.light .footerMenu a{display: block;margin-bottom: 5px}
+.light .link a{display: block;margin-bottom: 5px;}
+.light .link , .footerMenu ,.social, .contact{padding-left: 20px !important}
+
+.light .sideBar{background-color:#D6D7D3; width: 60px; position: fixed; right: 0; top: 35%;text-align: center;border-radius: 15px 0px 0px 15px}
+
+.light .sideBar ul li{list-style: none}
+.light .sideBar ul li img{width: 38px; height: 38px; border-radius: 50%;margin:10px;opacity: 1;box-shadow: 0px 2px 1px 1px black;transition: .3s;}
+.light .sideBar ul li img:hover{opacity: .5;box-shadow: none;padding: 2px}
+
+.light .about{background-color: #F4FFD6;}
+.light .about h2{color: #576864;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+.light .aboutMe{background-color: #F4FFD6;padding: 20px;overflow: hidden}
+.light .aboutLeft h3{color:#c0334d }
+.light .aboutLeft p{color:#2f3735 }
+.light .aboutLeft span{color:#320791}
+.light .aboutRight{border: 1px dotted #6A8A82;padding: 20px;background-color: #F4FFD6;box-shadow: 0px 1px 5px black;text-align: center;transition: .3s }
+.light .aboutRight:hover{box-shadow:none;border: none}
+.light .aboutRight img{width: 200px; height: 200px;border: 7px solid #212529 }
+.light .aboutRight p{color: #2f3735}
+.light .aboutDetail{background-color:#F4FFD6;padding: 20px;overflow: hidden;border-top: 1px solid #161617}
+.light .aboutDetail h3{color:#c0334d}
+.light .aboutDetail p{color:#2f3735 ;margin: 0;padding: 0}
+.light .aboutDetail q{color:#00311B ;font-size: 20px;margin-bottom: 20px}
+
+.light #gallary{display: none}
+.light .gallary{background-color:#F4FFD6;padding: 20px;overflow: hidden;border-top: 1px solid #161617;}
+.light .gallary h3{color:#c0334d}
+.light .items{border: 4px solid #161617}
+.light .items img {display: inline-block}
+.light .items img:first-child {width: 300px;height: 180px}
+.light .items img:nth-child(2) {width: 300px;height: 180px}
+.light .items img:nth-child(3) {width: 250px;height: 180px}
+.light .items img:nth-child(4) {width: 182px;height: 179px;transform: rotate(90deg)}
+.light .items img:nth-child(5) {width: 300px;height: 400px}
+.light .items img:nth-child(6) {width: auto;height: 400}
+.light .items img:nth-child(7) {width: 218px; height: 400px}
+.light .items img:nth-child(8) {width: 500px;height: auto}
+.light .items img:nth-child(9) {width: 556px;height: 375px}
+.light .items img:nth-child(10) {width: 500px; height: 420px;;transform: rotate(-90deg)}
+.light .items video{width: 500px;height: auto;text-align: center;display: flex}
+.light .familys{background-color: #F4FFD6;padding: 20px;overflow: hidden}
+.light .brotherLeft h3{color:#c0334d }
+.light .brotherLeft p{color:#2f3735 }
+.light .brotherLeft span{color:#320791}
+.light .brotherRight{border: 1px dotted #6A8A82;padding: 20px;background-color: #F4FFD6;box-shadow: 0px 1px 5px black;text-align: center;transition: .3s }
+.light .brotherRight:hover{box-shadow:none;border: none}
+.light .brotherRight img{width: 200px; height: 200px;border: 7px solid #212529 }
+.light .brotherRight p{color: #2f3735}
+.light .brotherRight span{color: #320791; font-weight: 600}
+.light .familyName, .gallaryButton{background-color: #F4FFD6;}
+.light .gallaryButton {text-align: center;background-color: #F4FFD6;}
+.light .familyName h2{color: #576864;text-align: center; padding: 25px 0;font-size: 30px;font-weight: 400;border: none}
+
+.light .projectHeader{background-color: #F4FFD6;padding: 20px;overflow: hidden}
+.light .projectHeader h2{color: #576864;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+.light .project{min-height: 390px}
+.light .quarantineGame{width: 295px; background-color: #F4FFD6;border-radius: 5px;text-align: center;box-shadow: 0px 1px 4px 1px black;overflow: hidden;height: 55px;cursor: pointer; transition: .5s;}
+.light .quarantineGame img{border: 5px solid #212529;width: 90%;height: 190px;margin-top: 10px;display: none; animation-duration: 1s;animation-name: imgOpacity; animation-timing-function: ease-in-out;opacity: 1;transition: 1s}
+.light .quarantineGame h3{color: #D2D2D0; font-weight: 600;font-size: 25px;padding: 8px 0;text-shadow: 1px 2px 2px black}
+.light .quarantineGame p{color: #636366;}
+.light .quarantineGame p span{color: #320791;padding: 10px}
+
+.light .quarantineGame:hover {height: 390px}
+.light .quarantineGame:hover img{display:block}
+
+.light .blogMain{background-color: #F4FFD6;padding: 20px;overflow: hidden}
+.light .blogMain h2{color: #576864;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+
+.light .blog  h3{color: #c0334d}
+.light .blog q{color: #00311B;font-size: 17px;margin-bottom: 17px;}
+.light .blog p span{color: #d72c2c}
+
+.light .gallaryButton button{padding: 8px 0px;display: inline;background-color: #4AA142;color: #f9f9f9;font-weight: 600;width:100%;transition: .3s }
+.light .gallaryButton button:hover{color: #212529;text-decoration: none;background-color: #5C9558;padding: 10px;}
+/*#80ADD7 #4AC669*/
+
+
+
+
+
+.light .switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 15px;
+  margin-top: 45px
+ 
+}
+.light .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.light .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#b8b3bb;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.light .slider::before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 12px;
+  left: 1px;
+  bottom: 1px;
+  background-color: #2A3457;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.light input:checked + .slider {
+  background-color: limegreen;
+}
+
+
+
+.light input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.light .slider.round {
+  border-radius: 10px;
+}
+
+.light .slider.round:before {
+  border-radius: 50%;
+}
+
+.light .beforeSwitch{padding: 7px}
+
+.light .thisSwitch {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-top: 45px;
+  
+ 
+}
+.light .thisSwitch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.light .thisSlider{position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+box-shadow: 0px 0px 2px 3px #b8b3bb;
+    background-color: #b8b3bb;
+  -webkit-transition: .4s;
+  transition: .4s;}
+/*
+.thisSlider::before{position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #d4d1d7;
+  -webkit-transition: .4s;
+  transition: .4s;}
+*/
+.light .thisSlider .thisRound {border-radius: 50%}
+.light input:checked + .thisSlider {
+  box-shadow:0px 0px 2px 3px #286428;
+  
+}
+
+
+/*
+input:checked + .thisSlider:before {
+    background-color: #32cd32;
+  
+}
+*/
+.light .thisSlider.thisround {
+  border-radius: 50%;
+}
+/*
+.thisSlider.thisround::before {
+  border-radius: 50%;
+}
+*/
+
+
+@keyframes imgOpacity{
+    from {opacity: 0; }
+    to{opacity: 1;}
+}
+
+@keyframes detail{
+    
+    from{transform: translateX(400px); opacity: 0}
+    to{transform: translateX(0px);opacity: 1}
+}
+
+
+
+@keyframes rightleft{
+        
+        from{transform: translateX(400px); opacity: 0}
+        to{transform: translateX(0px);opacity: 1}
+}
+
+@keyframes leftRight{
+        
+        from{transform: translateX(-300px)}
+        to{transform: translateX(0px)}
+        
+}
+@keyframes topToBottom {
+    from{transform: translateY(-200px)}
+    to{transform: translateY{0px}
+    
+}
+
+

@@ -1,0 +1,303 @@
+*{margin: 0 auto; padding: 0;font-family: arial;}
+
+.header{background: #002F3F;position: sticky; top: -42px; z-index: 99;}
+.logo{margin: 15px;text-align: center}
+.logo h1 {font-family: Meie Script;margin: 0; color: #7A9D96;text-shadow: 1px 1px 2px black ;}
+.logo p {margin-bottom: 0;color: #A4978E}
+.mode {text-align: center;}
+.mode p{margin-bottom: 5px;color: antiquewhite; font-weight: 300;font-size: 13px}
+/*
+.menuButton{width: 17px; height: 17px; background: #6A8A82; border-radius: 50%;box-shadow: 3px 3px 10px black}
+.menuButton:active{box-shadow:-1px -1px 0 black}
+*/
+.manus{}
+.manus ul{display: flex;overflow: hidden;padding: 10px}
+.manus ul li{list-style: none;margin-top: 50px;cursor: pointer;overflow: hidden;display: inline-block;background: #6A8A82;border-radius: 50%;box-shadow: 3px 3px 5px black;transition: .3s}
+.manus ul li:active{box-shadow:none;}
+.manus ul li:hover{background: limegreen}
+.manus ul li i{font-size: 22px;color: #002F3F;padding: 8px;}
+
+.banner{background: url(images/Banners.jpg) no-repeat center center/cover;overflow: hidden;height: 400px}
+.banner .bannerDialogue{text-align: center;padding: 70px }
+.banner .bannerDialogue h2{color:#6A8A82; font-family: arial;font-weight: 500;font-size: 4vw ;margin: 0}
+.banner .bannerDialogue .first{animation-duration: .8s; animation-name: topToBottom; animation-timing-function: ease-out;}
+.banner .bannerDialogue .second{animation-duration: 1s; animation-name:leftRight; animation-timing-function: ease-out;transition-property: all}
+.banner .bannerDialogue p{color: black; background: #6a8a82;padding: 5px 15px;border-radius: 7px;display: inline-block; font-size: 15px;font-family: arial;font-weight: 700;margin: 0;animation-duration: 0.8s; animation-name: rightleft;animation-timing-function: ease-in;transition-property: all}
+.banner .bannerPicture img{width: 700px;height: auto;    margin-right: 70px;}
+
+.option{margin: 0 auto;text-align: center}
+.mainDetail{margin-top:-32px;padding: 0 0 !important; background-color:#132226; }
+.detail{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+
+.detail2{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+#detail2{display: none}
+.detail3{position: relative;animation-duration: .5s; animation-name: detail; animation-timing-function: ease-in;}
+#detail3{display: none}
+.expert h3{color: #6A8A82;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border: 1px solid #191919}
+.expert2 h3{color: #6A8A82;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border: 1px solid #191919}
+.expert3 h3{color: #6A8A82;font-family: arial; font-weight: 600;padding: 15px;text-align: center;border: 1px solid #191919}
+.detailExpert{width: 90%;overflow: hidden;  border-radius: 13px}
+.detailExpert2{width: 90%;overflow: hidden;  border-radius: 13px}
+.detailExpert3{width: 90%;overflow: hidden;  border-radius: 13px}
+.cPro{width: 170px;background-color: #132226;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 8px 0px black }
+.cPro2{width: 170px;background-color: #132226;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 8px 0px black }
+.cPro3{width: 170px;background-color: #132226;display: inline-block;text-align: center;margin: 25px 41px;border-radius: 30px;transition: .5s;cursor: pointer;box-shadow: 1px 1px 8px 0px black }
+.cPro:hover{box-shadow: 1px 1px 15px 1px black;background-color:#390A0A }
+.cPro2:hover{box-shadow: 1px 1px 15px 1px black;background-color:#390A0A }
+.cPro3:hover{box-shadow: 1px 1px 15px 1px black;background-color:#390A0A }
+.cPro img{width: 170px;height: 170px; border-radius: 10px}
+.cPro2 img{width: 170px;height: 170px; border-radius: 10px}
+.cPro3 img{width: 170px;height: 170px; border-radius: 10px}
+.cPro h6{color: white;font-size: 12px;font-family: arial;font-weight: 700}
+.cPro2 h6{color: springgreen;font-size: 12px;font-family: arial;}
+.cPro3 h6{color: springgreen;font-size: 12px;font-family: arial;}
+.cPro2 p{font-size: 12px;font-family: arial;color: white}
+.cPro3 p{font-size: 12px;font-family: arial;color: white}
+
+.progress{background-color: transparent}
+.progress .bg-success{border-radius: 2px}
+
+.footer{background-color:#00202B}
+.footer div{margin: 70px 0px; border-top: 2px solid #bdbcbc;padding: 30px 0; border-bottom: 2px solid #bdbcbc;}
+.footer h3{color: white;margin-bottom: 30px}
+.footer p{color: white;}
+.footer a{color: white;}
+.contact i{color: darkgray;margin-bottom: 30px;}
+.fa-facebook-square::before{color: white}
+.fa-twitter-square::before{color: white}
+.social i{margin-bottom: 10px}
+.fa-instagram-square::before{color: white}
+.footerMenu a{display: block;margin-bottom: 5px}
+.link a{display: block;margin-bottom: 5px;}
+.link , .footerMenu ,.social, .contact{padding-left: 20px !important}
+
+.sideBar{background-color:#00202B; width: 60px; position: fixed; right: 0; top: 35%;text-align: center;border-radius: 15px 0px 0px 15px}
+.sideBar ul{}
+.sideBar ul li{list-style: none}
+.sideBar ul li img{width: 38px; height: 38px; border-radius: 50%;margin:10px;opacity: 1;box-shadow: 0px 2px 1px 1px black;transition: .3s;}
+.sideBar ul li img:hover{opacity: .5;box-shadow: none;padding: 2px}
+
+.about{background-color: #00202B;}
+.about h2{color: #6A8A82;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+.aboutMe{background-color: #00202B;padding: 20px;overflow: hidden}
+.aboutLeft h3{color:#f9f9f9 }
+.aboutLeft p{color:#636366 }
+.aboutLeft span{color:limegreen}
+.aboutRight{border: 1px dotted #6A8A82;padding: 20px;background-color: #00202B;box-shadow: 0px 1px 5px black;text-align: center;transition: .3s }
+.aboutRight:hover{box-shadow:none;border: none}
+.aboutRight img{width: 200px; height: 200px;border: 7px solid #212529 }
+.aboutRight p{color: #6A8A82}
+.aboutDetail{background-color:#00202B;padding: 20px;overflow: hidden;border-top: 1px solid #161617}
+.aboutDetail h3{color:#f9f9f9}
+.aboutDetail p{color:#636366 ;margin: 0;padding: 0}
+.aboutDetail q{color:#16d0bf ;font-size: 20px;margin-bottom: 20px}
+
+#gallary{display: none}
+.gallary{background-color:#00202B;padding: 20px;overflow: hidden;border-top: 1px solid #161617;}
+.gallary h3{color:#f9f9f9}
+.items{border: 4px solid #161617}
+.items img {display: inline-block}
+.items img:first-child {width: 300px;height: 180px}
+.items img:nth-child(2) {width: 300px;height: 180px}
+.items img:nth-child(3) {width: 250px;height: 180px}
+.items img:nth-child(4) {width: 182px;height: 179px;transform: rotate(90deg)}
+.items img:nth-child(5) {width: 300px;height: 400px}
+.items img:nth-child(6) {width: auto;height: 400}
+.items img:nth-child(7) {width: 218px; height: 400px}
+.items img:nth-child(8) {width: 500px;height: auto}
+.items img:nth-child(9) {width: 556px;height: 375px}
+.items img:nth-child(10) {width: 500px; height: 420px;;transform: rotate(-90deg)}
+.items video{width: 500px;height: auto;text-align: center;display: flex}
+.familys{background-color: #00202B;padding: 20px;overflow: hidden}
+.brotherLeft h3{color:#f9f9f9 }
+.brotherLeft p{color:#636366 }
+.brotherLeft span{color:limegreen}
+.brotherRight{border: 1px dotted #6A8A82;padding: 20px;background-color: #00202B;box-shadow: 0px 1px 5px black;text-align: center;transition: .3s }
+.brotherRight:hover{box-shadow:none;border: none}
+.brotherRight img{width: 200px; height: 200px;border: 7px solid #212529 }
+.brotherRight p{color: #6A8A82}
+.brotherRight span{color: limegreen; font-weight: 600}
+.familyName,.gallaryButton{background-color: #00202B}
+.gallaryButton {text-align: center}
+.familyName h2{color: #6A8A82;text-align: center; padding: 25px 0;font-size: 30px;font-weight: 400;border: 1px solid #212529}
+
+.projectHeader{background-color: #00202B;padding: 20px;overflow: hidden}
+.projectHeader h2{color: #6A8A82;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+.project{min-height: 390px}
+.quarantineGame{width: 295px; background-color: #00202B;border-radius: 5px;text-align: center;box-shadow: 0px 1px 4px 1px black;overflow: hidden;height: 55px;cursor: pointer; transition: .5s;}
+.quarantineGame img{border: 5px solid #212529;width: 90%;height: 190px;margin-top: 10px;display: none; animation-duration: 1s;animation-name: imgOpacity; animation-timing-function: ease-in-out;opacity: 1;transition: 1s}
+.quarantineGame h3{color: #A7CEC5; font-weight: 600;font-size: 25px;padding: 8px 0;text-shadow: 1px 2px 2px black}
+.quarantineGame p{color: #636366;}
+.quarantineGame p span{color: limegreen;padding: 10px}
+
+.quarantineGame:hover {height: 390px}
+.quarantineGame:hover img{display:block}
+
+.blogMain{background-color: #00202B;padding: 20px;overflow: hidden}
+.blogMain h2{color: #6A8A82;text-align: center; padding: 25px 0;font-size: 35px;font-weight: 600}
+.blog {}
+.blog  h3{color: #f9f9f9}
+.blog q{color: #4AC669;font-size: 17px;margin-bottom: 17px;}
+.blog p span{color: #d72c2c}
+
+.gallaryButton button{padding: 8px 0px;display: inline;background-color: #4AA142;color: #f9f9f9;font-weight: 600;width: 100%;transition: .3s }
+.gallaryButton button:hover{color: #212529;text-decoration: none;background-color: #5C9558;padding: 10px;}
+/*#80ADD7 #4AC669*/
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 15px;
+  margin-top: 45px
+ 
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#b8b3bb;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 12px;
+  left: 1px;
+  bottom: 1px;
+  background-color: #2A3457;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: limegreen;
+}
+
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 10px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.beforeSwitch{padding: 7px}
+
+.thisSwitch {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-top: 45px;
+  
+ 
+}
+.thisSwitch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.thisSlider{position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+box-shadow: 0px 0px 2px 3px #b8b3bb;
+    background-color: #b8b3bb;
+  -webkit-transition: .4s;
+  transition: .4s;}
+/*
+.thisSlider::before{position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #d4d1d7;
+  -webkit-transition: .4s;
+  transition: .4s;}
+*/
+.thisSlider .thisRound {border-radius: 50%}
+input:checked + .thisSlider {
+  box-shadow:0px 0px 2px 3px #32cd32;
+  
+}
+
+
+/*
+input:checked + .thisSlider:before {
+    background-color: #32cd32;
+  
+}
+*/
+.thisSlider.thisround {
+  border-radius: 50%;
+}
+/*
+.thisSlider.thisround::before {
+  border-radius: 50%;
+}
+*/
+
+
+@keyframes imgOpacity{
+    from {opacity: 0; }
+    to{opacity: 1;}
+}
+
+@keyframes detail{
+    
+    from{transform: translateX(400px); opacity: 0}
+    to{transform: translateX(0px);opacity: 1}
+}
+
+
+
+@keyframes rightleft{
+        
+        from{transform: translateX(400px); opacity: 0}
+        to{transform: translateX(0px);opacity: 1}
+}
+
+@keyframes leftRight{
+        
+        from{transform: translateX(-300px)}
+        to{transform: translateX(0px)}
+        
+}
+@keyframes topToBottom {
+    from{transform: translateY(-200px)}
+    to{transform: translateY{0px}
+    
+}
+
+

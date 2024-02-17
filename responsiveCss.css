@@ -1,0 +1,44 @@
+@media screen and  (max-width:770px){
+    
+    .header {top: -204px !important}
+	
+    .sideBar{display: none}
+    .banner .bannerPicture img{margin-right: -10px;margin-top: -100px;width: 606px;margin-right: -24px !important}
+    .footer div{margin: 0 0 !important}
+    .detailExpert{display: block !important; text-align: center}
+    .detailExpert2{display: block !important; text-align: center}
+    .detailExpert3{display: block !important; text-align: center}
+    .quarantineGame{width: 100% !important}
+    .quarantineGame h3{font-size: 3vw !important}
+    
+    
+    .light .header {top: -204px !important}
+	
+    .light .sideBar{display: none}
+    .light .banner .bannerPicture img{margin-right: -10px;margin-top: -100px;width: 606px;margin-right: -24px !important}
+    .light .footer div{margin: 0 0 !important}
+    .light .detailExpert{display: block !important; text-align: center}
+    .light .detailExpert2{display: block !important; text-align: center}
+    .light .detailExpert3{display: block !important; text-align: center}
+    .light .quarantineGame{width: 100% !important}
+    .light .quarantineGame h3{font-size: 3vw !important}
+}
+
+@media screen and (max-width:991px){
+    
+    .detailExpert{display: block !important; text-align: center}
+    .quarantineGame{width: 100% !important}
+	
+    .aboutRight ,.brotherRight{padding: 0 !important; }
+    ..aboutRight img ,.brotherRight img{width: 100% !important}
+    
+    
+    .light .detailExpert{display: block !important; text-align: center}
+    .light .quarantineGame{width: 100% !important}
+	
+    .light .aboutRight , .light .brotherRight{padding: 0 !important; }
+    .light .aboutRight img ,.light .brotherRight img{width: 100% !important}
+    
+    
+}
+
